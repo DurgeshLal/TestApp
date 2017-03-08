@@ -16,6 +16,9 @@
 		45E9B4F51E6E4102002F7482 /* Objective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9B4F41E6E4102002F7482 /* Objective_CTests.m */; };
 		45E9B5001E6E4102002F7482 /* Objective_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9B4FF1E6E4102002F7482 /* Objective_CUITests.m */; };
 		45E9B50F1E6E5D78002F7482 /* AutolayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9B50E1E6E5D78002F7482 /* AutolayoutTableViewCell.m */; };
+		45E9B5121E6F90E1002F7482 /* TypeOneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9B5111E6F90E1002F7482 /* TypeOneTableViewCell.m */; };
+		45E9B5151E6F99B7002F7482 /* TypeTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9B5141E6F99B7002F7482 /* TypeTwoTableViewCell.m */; };
+		45E9B5181E6F9F72002F7482 /* TypeThreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9B5171E6F9F72002F7482 /* TypeThreeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		45E9B5011E6E4102002F7482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45E9B50D1E6E5D78002F7482 /* AutolayoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutTableViewCell.h; sourceTree = "<group>"; };
 		45E9B50E1E6E5D78002F7482 /* AutolayoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutolayoutTableViewCell.m; sourceTree = "<group>"; };
+		45E9B5101E6F90E1002F7482 /* TypeOneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeOneTableViewCell.h; sourceTree = "<group>"; };
+		45E9B5111E6F90E1002F7482 /* TypeOneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeOneTableViewCell.m; sourceTree = "<group>"; };
+		45E9B5131E6F99B7002F7482 /* TypeTwoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeTwoTableViewCell.h; sourceTree = "<group>"; };
+		45E9B5141E6F99B7002F7482 /* TypeTwoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeTwoTableViewCell.m; sourceTree = "<group>"; };
+		45E9B5161E6F9F72002F7482 /* TypeThreeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeThreeTableViewCell.h; sourceTree = "<group>"; };
+		45E9B5171E6F9F72002F7482 /* TypeThreeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeThreeTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				45E9B4E11E6E4102002F7482 /* ViewController.m */,
 				45E9B50D1E6E5D78002F7482 /* AutolayoutTableViewCell.h */,
 				45E9B50E1E6E5D78002F7482 /* AutolayoutTableViewCell.m */,
+				45E9B5101E6F90E1002F7482 /* TypeOneTableViewCell.h */,
+				45E9B5111E6F90E1002F7482 /* TypeOneTableViewCell.m */,
+				45E9B5131E6F99B7002F7482 /* TypeTwoTableViewCell.h */,
+				45E9B5141E6F99B7002F7482 /* TypeTwoTableViewCell.m */,
+				45E9B5161E6F9F72002F7482 /* TypeThreeTableViewCell.h */,
+				45E9B5171E6F9F72002F7482 /* TypeThreeTableViewCell.m */,
 				45E9B4E31E6E4102002F7482 /* Main.storyboard */,
 				45E9B4E61E6E4102002F7482 /* Assets.xcassets */,
 				45E9B4E81E6E4102002F7482 /* LaunchScreen.storyboard */,
@@ -278,9 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E9B5181E6F9F72002F7482 /* TypeThreeTableViewCell.m in Sources */,
 				45E9B4E21E6E4102002F7482 /* ViewController.m in Sources */,
 				45E9B4DF1E6E4102002F7482 /* AppDelegate.m in Sources */,
+				45E9B5151E6F99B7002F7482 /* TypeTwoTableViewCell.m in Sources */,
 				45E9B50F1E6E5D78002F7482 /* AutolayoutTableViewCell.m in Sources */,
+				45E9B5121E6F90E1002F7482 /* TypeOneTableViewCell.m in Sources */,
 				45E9B4DC1E6E4102002F7482 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +531,7 @@
 				45E9B5061E6E4102002F7482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45E9B5071E6E4102002F7482 /* Build configuration list for PBXNativeTarget "Objective-CTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +540,7 @@
 				45E9B5091E6E4102002F7482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45E9B50A1E6E4102002F7482 /* Build configuration list for PBXNativeTarget "Objective-CUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +549,7 @@
 				45E9B50C1E6E4102002F7482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

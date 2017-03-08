@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "TypeOneTableViewCell.h"
 #import "AutolayoutTableViewCell.h"
+#import "TypeTwoTableViewCell.h"
+#import "TypeThreeTableViewCell.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -78,7 +81,7 @@
     
     
     // Register Cell
-    [[self tableView] registerClass:[AutolayoutTableViewCell class] forCellReuseIdentifier:@"reuse"];
+    [[self tableView] registerClass:[TypeThreeTableViewCell class] forCellReuseIdentifier:@"reuse"];
     self.tableView.estimatedRowHeight = 50.0;
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     
@@ -90,9 +93,10 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = (AutolayoutTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"reuse" forIndexPath:indexPath];
-   // cell.textLabel.text = @"Durgesh";
+    
+    UITableViewCell *cell = (TypeThreeTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"reuse" forIndexPath:indexPath];
     return cell;
+
 }
 
 
